@@ -1,0 +1,26 @@
+form{  
+  width:100%;
+  height:100vh;
+  /* Justificamos y alineamos los elementos al centro de la página*/
+  justify-content:center;
+  align-items:center;
+  display: block;
+  padding: 8em;
+  /*imagen de fondo de pantalla de la pagina web*/
+  background: url("../img/fondo.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*Color de texto*/
+  color: white;
+  font-size: 15px;
+  font-weight: bold;  
+}
+/*Le damos estilo al texto de a la etiqueta
+para que sea igual al resto de la página*/
+p{
+  color: white
+  font-size: 10px;
+  font-weight: bold;  
+}
